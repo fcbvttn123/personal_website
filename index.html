@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/32f723cad5.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="main-header">
+
+        <div class="wrapper wrapper-header">
+
+            <div class="header-left">
+
+                <a href="#" class="header-left__home"></a>
+
+                <a href="#" class="header-left__home">David Vu</a>
+
+                <p>Web Developer</p>
+
+            </div>
+
+            <div class="header-right">
+
+                <a class="header-right__resume">Resume</a>
+
+                <a class="header-right__project">Projects</a>
+
+                <a class="header-right__contact" href="#main-footer">Contact</a>
+
+            </div>
+
+            <div class="menu-icon">
+
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+
+                <i class="fa-solid fa-x" style="color: #000000; display: none;"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <main class="hero-section">
+
+        <!-- Main Section -->
+
+        <main class="main-section">
+
+            <div class="wrapper wrapper-mainSection">
+
+                <div class="personal-img">
+
+                    <img src="img/avt.jpg" alt="">
+
+                </div>
+
+                <div class="intro">
+
+                    <h1>Hello</h1>
+
+                    <div class="intro__details">
+
+                        <h2>A bit about me</h2>
+
+                        <p>I'm a passionate and dedicated web developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in creating engaging and user-friendly websites that combine both aesthetics and functionality.</p>
+
+                    </div>
+
+                    <div class="main-section__links">
+
+                        <a class="main-section__links__resume">Resume</a>
+        
+                        <a class="main-section__links__project">Projects</a>
+        
+                        <a href="#main-footer">Contact</a>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+
+
+        <!-- Resume Section -->
+
+        <section class="resume invisible" id="resume">
+
+            <div class="wrapper wrapper-resume">
+
+                <h1>Resume</h1>
+
+                <div class="resume__skills resume__item">
+
+                    <div class="title">
+
+                        <h1>Skills</h1>
+
+                    </div>
+
+                    <div class="details">
+
+                        <p>HTML, CSS, JavaScript</p>
+
+                        <p>React, Spring Boot Framework</p>
+
+                        <p>SQL</p>
+
+                        <p>PHP</p>
+
+                        <p>MySQL</p>
+
+                        <p>Java, C#</p>
+
+                        <p>Git/Github</p>
+
+                        <p>Responsive Web Design</p>
+
+                    </div>
+
+                </div>
+
+                <div class="resume__work resume__item">
+
+                    <div class="title">
+
+                        <h1>Work Experience</h1>
+
+                        <p>Technical Analyst</p>
+
+                        <p>01/2023 - 04/2023</p>
+
+                    </div>
+
+                    <div class="details">
+
+                        <p>Participating in IT security activities such as security assessments and reporting</p>
+
+                        <p>Write code and develop web applications using appropriate programming languages, frameworks</p>
+
+                        <p>Tracking of project architecture risks and maintenance of form templates</p>
+
+                        <p>Work closely with the development team to design technical solutions for web applications</p>
+
+                    </div>
+
+                </div>
+
+                <div class="resume__education resume__item">
+
+                    <div class="title">
+
+                        <h1>Education</h1>
+
+                        <p>Sheridan College</p>
+
+                        <p>01/2022 - 12/2024</p>
+
+                    </div>
+
+                    <div class="details">
+
+                        <p>Web Programming</p>
+
+                        <p>Database Design and Implementation</p>
+
+                        <p>Mobile Web-based Applications</p>
+
+                        <p>.NET Technologies using C#</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- Project Section -->
+
+        <section class="project invisible" id="project">
+
+            <div class="wrapper wrapper-project">
+
+                <h1>Project</h1>
+
+                <div class="project__item alarm-clock">
+
+                    <div class="details">
+
+                        <h1>Alarm Clock</h1>
+
+                        <p>Using HTML/CSS (flex and grid) to style and layout the page</p>
+
+                        <p>Using v4() function uuid library from NPM to create unique id for each alarm clock in JavaScript  </p>
+
+                        <p>Using web storage knowledge in JavaScript to save each alarm clock permanently into the local storage of browser </p>
+
+                        <p>Learning: improve the proficiency of NPM and Local Storage in JavaScript. Getting familiar with layout items in web site by CSS Grid and Flex</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/Alarm_Clock/"></a>
+
+                </div>
+
+                <div class="project__item calculator">
+
+                    <div class="details">
+
+                        <h1>Calculator</h1>
+
+                        <p>A user-friendly interface that resembles a traditional handheld calculator</p>
+
+                        <p>Includes buttons to clear the input and reset the calculator to its initial state</p>
+
+                        <p>The calculator app is designed to be responsive, adapting to different screen sizes and devices</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/calculator/"></a>
+
+                </div>
+
+                <div class="project__item quiz">
+
+                    <div class="details">
+
+                        <h1>Quiz App</h1>
+
+                        <p>A user-friendly interface that presents quiz questions and options to the users</p>
+
+                        <p>Displays the user's final score</p>
+
+                        <p>For each question, the app presents multiple answer options. Users can select their answers by clicking on the provided options</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/quiz/"></a>
+
+                </div>
+
+                <div class="project__item typing">
+
+                    <div class="details">
+
+                        <h1>Typing Test</h1>
+
+                        <p>A user-friendly interface that provides a typing area where users can enter the text</p>
+
+                        <p>Includes a timer that starts counting down when the user begins typing</p>
+
+                        <p>As users type, the app compares their input against the expected text and calculates their typing accuracy</p>
+
+                        <p>The app measures the user's typing speed in terms of words per minute (WPM) or characters per minute (CPM)</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/typing_test/"></a>
+
+                </div>
+
+                <div class="project__item newsHomepage">
+
+                    <div class="details">
+
+                        <h1>News Homepage (HTML/CSS)</h1>
+
+                        <p>The optimal layout for the interface depending on user device's screen size</p>
+
+                        <p>See hover and focus states for all interactive elements on the page</p>
+
+                        <p>Apply CSS Grid, Position and Flex to layout the page</p>
+
+                        <p>Choosing various color for web design</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/news-homepage-main/"></a>
+
+                </div>
+
+                <div class="project__item landingPage">
+
+                    <div class="details">
+
+                        <h1>Landing Page (HTML/CSS)</h1>
+
+                        <p>The optimal layout for the interface depending on user device's screen size</p>
+
+                        <p>See hover and focus states for all interactive elements on the page</p>
+
+                        <p>Apply CSS Grid, Position and Flex to layout the page</p>
+
+                        <p>Choosing various color for web design</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/landing_page/"></a>
+
+                </div>
+
+                <div class="project__item notificationPage">
+
+                    <div class="details">
+
+                        <h1>Notification (HTML/CSS)</h1>
+
+                        <p>The optimal layout for the interface depending on user device's screen size</p>
+
+                        <p>See hover and focus states for all interactive elements on the page</p>
+
+                        <p>Apply CSS Grid, Position and Flex to layout the page</p>
+
+                        <p>Choosing various color for web design</p>
+
+                    </div>
+
+                    <a href="https://fcbvttn123.github.io/notification-page-main/"></a>
+
+                </div>
+
+            </div>            
+
+        </section>
+
+    </main>
+
+
+
+
+    <!-- Footer -->
+
+    <footer id="main-footer" class="main-footer">
+
+        <div class="wrapper wrapper-footer">
+
+            <div class="footer__item">
+
+                <p>Phone</p>
+
+                <p>437-213-6600</p>
+
+            </div>
+
+            <div class="footer__item">
+
+                <p>Email</p>
+
+                <p>vutran@sheridancollege.ca</p>
+
+            </div>
+
+            <div class="footer__item">
+
+                <p>Follow me</p>
+
+                <div class="sm">
+
+                    <a href="https://www.linkedin.com/in/fcbvttn/">
+
+                        <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i>
+
+                    </a>
+
+                    <a href="https://www.instagram.com/nganvu3903/">
+
+                        <i class="fa-brands fa-square-instagram" style="color: #000000;"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
